@@ -24,7 +24,7 @@ app.use("/bank-api/verify", bank);
 
 //* Env Variables
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 //* Mongoose Connection
 
