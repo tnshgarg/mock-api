@@ -15,6 +15,7 @@ router.post("/", (req, res) => {
     .then((result) => {
       res.send({
         request_id: "ad8229aa-4f70-4bc3-a3ea-c3e1ed2d5ad3",
+        status: 200,
         data: {
           code: "1002",
           state: "XML_DOWNLOADED",
